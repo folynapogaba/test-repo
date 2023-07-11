@@ -31,12 +31,12 @@ resource "aws_instance" "project1" {
     }
 }
 
-# terraform {
-#   backend "remote" {
-#     organization = "FOLLY"
+terraform {
+  backend "remote" {
+    organization = "FOLLY"
 
-#     workspaces {
-#       name = "terraproject"
-#     }
-#   }
-# }
+    workspaces {
+      name = "test-repo-w"
+     }
+   }
+ }

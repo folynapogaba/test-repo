@@ -36,7 +36,10 @@ terraform {
     organization = "FOLLY"
 
     workspaces {
-      name = "test-repo-w"
+      name = "action"
      }
    }
  }
+
+
+
